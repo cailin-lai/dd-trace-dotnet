@@ -34,7 +34,7 @@ Linux integration tests        | [![Build Status](https://dev.azure.com/datadog-
 
 Minimum requirements to build the code in this repository:
 
-- [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) v15.7 or newer
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) v16.0 or newer
   - Workloads
     - Desktop development with C++
     - .NET desktop development
@@ -45,11 +45,11 @@ Minimum requirements to build the code in this repository:
 - [.NET Core 2.1 SDK](https://www.microsoft.com/net/download) or newer
 - Optional: [WiX Toolset 3.11.1](http://wixtoolset.org/releases/) or newer to build Windows installer (msi)
   - Requires .NET Framework 3.5 SP2 (install from Windows Features control panel: `OptionalFeatures.exe`)
-  - [WiX Toolset VS2017 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2017Extension) to build installer from VS2017
+  - [WiX Toolset VS2019 Extension](https://marketplace.visualstudio.com/items?itemName=RobMensching.WixToolsetVisualStudio2019Extension) to build installer from VS2019
 - Optional: [Docker for Windows](https://docs.docker.com/docker-for-windows/) to run Linux tests
   - Requires Windows 10 (1607 Anniversary Update, Build 14393 or newer)
 
-Microsoft provides [evaluation developer VMs]((https://developer.microsoft.com/en-us/windows/downloads/virtual-machines)) with Windows 10 and Visual Studio 2017 pre-installed.
+Microsoft provides [evaluation developer VMs]((https://developer.microsoft.com/en-us/windows/downloads/virtual-machines)) with Windows 10 and Visual Studio 2019 pre-installed.
 
 ### Linux
 
